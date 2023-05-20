@@ -405,15 +405,9 @@ var alreadyTriggered = false;
 
 const personName = document.querySelector('#name');
 console.log(personName.textContent);
-if ( personName.textContent === ' Abhishek' ) {
-    triggerType = 'fx6';
-} else if ( personName.textContent === ' Siddesh' ) {
+ if ( personName.textContent === ' Siva' ) {
     triggerType = 'fx5';
-} else if ( personName.textContent === ' Saikiran' ) {
-    triggerType = 'fx1';
-} else if ( personName.textContent === ' Kartheek' ) {
-    triggerType = 'fx4';
-}
+} 
 ts.trigger(triggerType);
 
 shuffleAnimate();
